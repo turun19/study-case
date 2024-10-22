@@ -50,7 +50,6 @@ public class BarangServices {
             barang.setStockBarang(barangRequest.getStockBarang());
             barang.setAdditionalInfo(barangRequest.getAdditionalInfo());
 
-            // Build the accessible URL for the file
             String fileUrl = BASE_URL + fileName;
             barang.setGambar(fileUrl);
             barang.setCreatedBy(barangRequest.getCreatedBy());
